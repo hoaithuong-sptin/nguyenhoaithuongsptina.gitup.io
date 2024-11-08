@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: url('seascape-rocks-plants-underwater-view-600nw-1126524749.webp') no-repeat center center fixed;
+    background-size: cover;
+}
+#shark{
+    left:100px; top:400px;
+    position: absolute;
+    animation-name: shark;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes shark{
+    0%{left:100px;top:400px;}
+    20%{left:300px;top:400px;}
+    40%{left:500px;top:300px;}
+    50%{left:600px;top:50px;}
+    60%{left:600px;top:100px;}
+    80%{left:500px;top:200px;}
+    100%{left:100px;top:400px;transform:scaleX(-1);}
+}
+#turtle{
+    left:100px; top:400px;
+    position: absolute;
+    animation-name: turtle ;
+    animation-duration: 23s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes turtle{
+    0%{left:100px;top:400px;}
+    20%{left:300px;top:400px;}
+    40%{left:500px;top:300px;}
+    50%{left:600px;top:50px;}
+    60%{left:600px;top:100px;}
+    80%{left:500px;top:200px;}
+    100%{left:100px;top:400px;transform:scaleX(-0.6);}
+}
+#goldFishSchool{
+    left:100px; top:400px;
+    position: absolute;
+    animation-name: goldFishSchool;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes goldFishSchool{
+    0%{left:100px;top:400px;}
+    20%{left:300px;top:400px;}
+    40%{left:500px;top:300px;}
+    50%{left:600px;top:50px;}
+    100%{left:100px;top:400px;transform:scaleX(-1.6);}
+}
+#faintSchool{
+    left:100px; top:400px;
+    position: absolute;
+    animation-name: faintSchool;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes faintSchool{
+    0%{left: 500px;top:400px;}
+    100%{left:100px;top:400px;transform:scaleX(-1);}
+}
